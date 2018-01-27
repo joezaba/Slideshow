@@ -1,0 +1,71 @@
+body {
+ background: #111; 
+}
+div {
+  position: absolute;
+  left: 42%;
+  margin-left: -247px;
+  margin-top: 3%;
+}
+h2 {
+	position: absolute;
+	top: 250px;
+	left: 40px;
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+	width: 300px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  box-shadow: 0 0 5px 0 hsla(0,0%,30%, .3);
+}
+img{
+  width: 680px;
+  height: 320px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 hsla(0,0%,30%, .3);
+}
+div:nth-child(10) {
+  animation: xfade 42s 0s infinite;
+}
+div:nth-child(9) {
+  animation: xfade 42s 4s infinite;
+}
+div:nth-child(8) {
+  animation: xfade 42s 8s infinite;
+}
+div:nth-child(7) {
+  animation: xfade 42s 12s infinite;
+}
+div:nth-child(6) {
+  animation: xfade 42s 16s infinite;
+}
+div:nth-child(5) {
+  animation: xfade 42s 20s infinite;
+}
+div:nth-child(4) {
+  animation: xfade 42s 24s infinite;
+}
+div:nth-child(3) {
+  animation: xfade 42s 28s infinite;
+}
+div:nth-child(2) {
+  animation: xfade 42s 32s infinite;
+}
+div:nth-child(1) {
+  animation: xfade 42s 34s infinite;
+}
+
+@keyframes xfade{
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+}
